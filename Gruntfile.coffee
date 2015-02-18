@@ -10,7 +10,8 @@ module.exports = (grunt) ->
         sourceMap: true
         includePaths: ['bower_components']
       dist:
-        files: 'build/main.css': 'stylesheets/main.sass'
+        files:
+          'build/main.css': 'stylesheets/main.sass'
 
     watch:
       files: ['stylesheets/**/*.sass', 'stylesheets/**/*.scss']
