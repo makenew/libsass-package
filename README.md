@@ -11,25 +11,26 @@ Use this project freely as a base for your Sass packages.
 
 ## Description
 
-This branch uses [Ruby Sass].
-For [LibSass] use the [libsass branch].
+This branch uses [LibSass].
+For [Ruby Sass] use the [master branch].
 
 [LibSass]: http://libsass.org/
-[libsass branch]: https://github.com/razor-x/sass-package/tree/libsass
+[master branch]: https://github.com/razor-x/sass-package
 [Ruby Sass]: http://sass-lang.com/
 
 ### Features
 
 * [Bower] package structure.
-* [Rake] tasks for development.
-* Gem management with [Bundler].
+* [Grunt] tasks for development.
+* Node package management with [npm].
 * [Travis CI] ready.
 * [EditorConfig].
 * Badges from [Shields.io]!
 
 [Bundler]: http://bundler.io/
 [EditorConfig]: http://editorconfig.org/
-[Rake]: https://github.com/jimweirich/rake
+[Grunt]: http://gruntjs.com/
+[npm]: https://www.npmjs.com/
 [Shields.io]: http://shields.io/
 [Travis CI]: https://travis-ci.org/
 
@@ -75,7 +76,7 @@ set up a separate branch to track this.
 ````bash
 $ git remote rename origin upstream
 $ git branch sass-package
-$ git branch -u upstream/master sass-package
+$ git branch -u upstream/libsass sass-package
 ````
 
 Then add an origin and push master
@@ -93,7 +94,7 @@ If you later clone your repo you will need to create the update branch again.
 ````bash
 $ git remote add upstream https://github.com/razor-x/sass-package.git
 $ git fetch upstream
-$ git checkout -b sass-package upstream/master
+$ git checkout -b sass-package upstream/libsass
 ````
 
 ## Installation
@@ -124,24 +125,22 @@ $ git clone https://github.com/razor-x/sass-package.git
 
 ### Requirements
 
-You will need [Ruby] ≥ 2 with [Bundler] and [Bower].
+You will need [npm] with [Grunt] and [Bower].
 
 Install the development dependencies with
 
 ````bash
-$ bundle
+$ npm install
 ````
 
-[Ruby]: https://www.ruby-lang.org/
+### Grunt
 
-### Rake
-
-Run `rake -T` to see all Rake tasks.
+Run `grunt --help` to see all Grunt tasks.
 
 ````
-rake build  # Compile Sass to CSS
-rake clean  # Remove build directory
-rake watch  # Have Sass watch for changes
+grunt sass   # Compile Sass to CSS
+grunt clean  # Remove build directory
+grunt watch  # Have Grunt watch for changes
 ````
 
 ## Contributing

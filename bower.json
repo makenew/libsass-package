@@ -19,8 +19,6 @@
     "test",
     "tests",
     "build",
-    "Gemfile",
-    "Gemfile.lock",
-    "Rakefile"
+    "Gruntfile.coffee"
   ]
 }
