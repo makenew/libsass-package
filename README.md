@@ -7,16 +7,16 @@
 [![Dependency Status](https://img.shields.io/gemnasium/razor-x/sass-package.svg)](https://gemnasium.com/razor-x/sass-package)
 [![Build Status](https://img.shields.io/travis/razor-x/sass-package.svg)](https://travis-ci.org/razor-x/sass-package)
 
-Use this project freely as a base for your Sass packages.
+Use this project freely as a base for your [Sass] packages.
 
 ## Description
 
-This branch uses [Ruby Sass].
+This branch uses [Ruby Sass][Sass].
 For [LibSass] use the [libsass branch].
 
 [LibSass]: http://libsass.org/
 [libsass branch]: https://github.com/razor-x/sass-package/tree/libsass
-[Ruby Sass]: http://sass-lang.com/
+[Sass]: http://sass-lang.com/
 
 ### Features
 
