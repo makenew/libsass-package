@@ -2,7 +2,10 @@
 language: [ ruby, node_js ]
 rvm: [ 2.2.0 ]
 node_js: [ 0.10 ]
-cache: bundler
+cache:
+  bundler: true
+  directories:
+    - bower_components
 sudo: false
 
 before_script:
