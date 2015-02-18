@@ -5,7 +5,7 @@
 -->
 [![MIT License](https://img.shields.io/badge/license-MIT-red.svg)](./LICENSE.txt)
 [![Dependency Status](https://img.shields.io/gemnasium/razor-x/sass-package.svg)](https://gemnasium.com/razor-x/sass-package)
-[![Build Status](https://img.shields.io/travis/razor-x/sass-package.svg)](https://travis-ci.org/razor-x/sass-package)
+[![Build Status](https://img.shields.io/travis/razor-x/sass-package/libsass.svg)](https://travis-ci.org/razor-x/sass-package)
 
 Use this project freely as a base for your Sass packages.
 
