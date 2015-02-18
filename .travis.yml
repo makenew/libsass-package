@@ -9,7 +9,7 @@ cache:
 sudo: false
 
 before_script:
-  - npm install bower -g
+  - npm install -g bower
   - bower install
 
 before_install:
