@@ -11,6 +11,12 @@ Use this project freely as a base for your Sass packages.
 
 ## Description
 
+This branch uses Ruby Sass.
+For [LibSass] use the [libsass branch].
+
+[LibSass]: http://libsass.org/
+[libsass branch]: https://github.com/razor-x/sass-package/tree/libsass
+
 ### Features
 
 * [Bower] package structure.
