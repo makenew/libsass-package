@@ -110,8 +110,6 @@ $ bower install --save sass-package
 Alternatively, you can download a [release][Releases]
 or clone the repository directly.
 
-[Bower]: http://bower.io/
-
 ## Development and Testing
 
 ### Source Code
@@ -143,6 +141,10 @@ grunt sass   # Compile Sass to CSS
 grunt clean  # Remove build directory
 grunt watch  # Have Grunt watch for changes
 ```
+
+[Bower]: http://bower.io/
+[Grunt]: http://gruntjs.com/
+[npm]: https://www.npmjs.com/
 
 ## Contributing
 
