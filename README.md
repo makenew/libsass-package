@@ -3,7 +3,7 @@
 <!--
 [![Bower Version](https://img.shields.io/bower/v/sass-package.svg)](http://bower.io/search/?q=sass-package)
 -->
-[![MIT License](https://img.shields.io/badge/license-MIT-red.svg)](./LICENSE.txt)
+[![MIT License](https://img.shields.io/github/license/makenew/sass-package.svg)](./LICENSE.txt)
 [![Dependency Status](https://img.shields.io/gemnasium/makenew/sass-package.svg)](https://gemnasium.com/makenew/sass-package)
 [![Build Status](https://img.shields.io/travis/makenew/sass-package/libsass.svg)](https://travis-ci.org/makenew/sass-package)
 
