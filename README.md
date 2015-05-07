@@ -4,8 +4,8 @@
 [![Bower Version](https://img.shields.io/bower/v/sass-package.svg)](http://bower.io/search/?q=sass-package)
 -->
 [![MIT License](https://img.shields.io/badge/license-MIT-red.svg)](./LICENSE.txt)
-[![Dependency Status](https://img.shields.io/gemnasium/razor-x/sass-package.svg)](https://gemnasium.com/razor-x/sass-package)
-[![Build Status](https://img.shields.io/travis/razor-x/sass-package/libsass.svg)](https://travis-ci.org/razor-x/sass-package)
+[![Dependency Status](https://img.shields.io/gemnasium/makenew/sass-package.svg)](https://gemnasium.com/makenew/sass-package)
+[![Build Status](https://img.shields.io/travis/makenew/sass-package/libsass.svg)](https://travis-ci.org/makenew/sass-package)
 
 Use this project freely as a base for your [Sass] packages.
 
@@ -15,7 +15,7 @@ This branch uses [LibSass].
 For [Ruby Sass][Sass] use the [master branch].
 
 [LibSass]: http://libsass.org/
-[master branch]: https://github.com/razor-x/sass-package
+[master branch]: https://github.com/makenew/sass-package
 [Sass]: http://sass-lang.com/
 
 ### Features
@@ -59,14 +59,14 @@ demonstration purposes only and does not apply to this software.
 
 ```bash
 $ git ls-files -z | xargs -0 sed -i 's/sass-package/your-package/g'
-$ git ls-files -z | xargs -0 sed -i 's/razor-x/your_username/g'
+$ git ls-files -z | xargs -0 sed -i 's/makenew/your_username/g'
 ```
 
 Note that `CHANGELOG.md` is just a template for this skeleton.
 The actual changes for this project are documented in the commit history
 and summarized under [Releases].
 
-[Releases]: https://github.com/razor-x/sass-package/releases
+[Releases]: https://github.com/makenew/sass-package/releases
 [The Unlicense]: http://unlicense.org/UNLICENSE
 
 #### Add future update support
@@ -93,7 +93,7 @@ which you can then merge into your other branches.
 If you later clone your repo you will need to create the update branch again.
 
 ```bash
-$ git remote add upstream https://github.com/razor-x/sass-package.git
+$ git remote add upstream https://github.com/makenew/sass-package.git
 $ git fetch upstream
 $ git checkout -b sass-package upstream/libsass
 ```
@@ -114,12 +114,12 @@ or clone the repository directly.
 
 ### Source Code
 
-The [sass-package](https://github.com/razor-x/sass-package)
+The [sass-package](https://github.com/makenew/sass-package)
 source is hosted on GitHub.
 To clone the project run
 
 ```bash
-$ git clone https://github.com/razor-x/sass-package.git
+$ git clone https://github.com/makenew/sass-package.git
 ```
 
 ### Requirements
@@ -153,7 +153,7 @@ Please submit and comment on bug reports and feature requests.
 
 To submit a patch:
 
-1. Fork it (https://github.com/razor-x/sass-package/fork).
+1. Fork it (https://github.com/makenew/sass-package/fork).
 2. Create your feature branch (`git checkout -b my-new-feature`).
 3. Make changes.
 4. Commit your changes (`git commit -am 'Add some feature'`).

@@ -11,7 +11,7 @@
     "css"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/razor-x/sass-package",
+  "homepage": "https://github.com/makenew/sass-package",
   "ignore": [
     "**/.*",
     "node_modules",
