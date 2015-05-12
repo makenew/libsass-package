@@ -114,8 +114,8 @@ or clone the repository directly.
 
 ### Source Code
 
-The [sass-package](https://github.com/makenew/sass-package)
-source is hosted on GitHub.
+The [sass-package source](https://github.com/makenew/sass-package)
+is hosted on GitHub.
 To clone the project run
 
 ```bash
