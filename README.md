@@ -57,7 +57,7 @@ demonstration purposes only and does not apply to this software.
    You can replace the placeholder package name and GitHub username
    with your own using
 
-```bash
+```
 $ git ls-files -z | xargs -0 sed -i 's/sass-package/your-package/g'
 $ git ls-files -z | xargs -0 sed -i 's/makenew/your_username/g'
 ```
@@ -74,7 +74,7 @@ and summarized under [Releases].
 If you want to merge in future updates from this skeleton and have your own origin,
 set up a separate branch to track this.
 
-```bash
+```
 $ git remote rename origin upstream
 $ git branch sass-package
 $ git branch -u upstream/libsass sass-package
@@ -82,7 +82,7 @@ $ git branch -u upstream/libsass sass-package
 
 Then add an origin and push master
 
-```bash
+```
 $ git remote add origin git@github.com:your_username/your-package.git
 $ git push -u origin master
 ```
@@ -92,7 +92,7 @@ which you can then merge into your other branches.
 
 If you later clone your repo you will need to create the update branch again.
 
-```bash
+```
 $ git remote add upstream https://github.com/makenew/sass-package.git
 $ git fetch upstream
 $ git checkout -b sass-package upstream/libsass
@@ -103,7 +103,7 @@ $ git checkout -b sass-package upstream/libsass
 The recommended method is to add this as a dependency
 to your project using [Bower] with
 
-```bash
+```
 $ bower install --save sass-package
 ```
 
@@ -118,7 +118,7 @@ The [sass-package source](https://github.com/makenew/sass-package)
 is hosted on GitHub.
 To clone the project run
 
-```bash
+```
 $ git clone https://github.com/makenew/sass-package.git
 ```
 
@@ -128,7 +128,7 @@ You will need [npm] with [Grunt] and [Bower].
 
 Install the development dependencies with
 
-```bash
+```
 $ npm install
 $ bower install
 ```
