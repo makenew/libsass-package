@@ -1,11 +1,14 @@
 # libSass Package Skeleton
 
 <!--
-[![Bower Version](https://img.shields.io/bower/v/libsass-package.svg)](http://bower.io/search/?q=libsass-package)
+[![npm](https://img.shields.io/npm/v/makenew-libsass-package.svg)](https://www.npmjs.com/package/makenew-libsass-package)
 -->
-[![MIT License](https://img.shields.io/github/license/makenew/libsass-package.svg)](./LICENSE.txt)
+<!--
+[![Bower](https://img.shields.io/bower/v/makenew-libsass-package.svg)](http://bower.io/search/?q=makenew-libsass-package)
+-->
+[![GitHub license](https://img.shields.io/github/license/makenew/libsass-package.svg)](./LICENSE.txt)
 [![Dependency Status](https://img.shields.io/gemnasium/makenew/libsass-package.svg)](https://gemnasium.com/makenew/libsass-package)
-[![Build Status](https://img.shields.io/travis/makenew/libsass-package/libsass.svg)](https://travis-ci.org/makenew/libsass-package)
+[![Build Status](https://img.shields.io/travis/makenew/libsass-package.svg)](https://travis-ci.org/makenew/libsass-package)
 
 ## Description
 
@@ -99,51 +102,77 @@ $ git merge upstream/libsass
 ## Installation
 
 The recommended method is to add this as a dependency
-to your project using [Bower] with
+to your project using [npm] with
 
 ```
-$ bower install --save libsass-package
+$ npm install --save makenew-libsass-package
+```
+
+or [Bower] with
+
+```
+$ bower install --save makenew-libsass-package
 ```
 
 Alternatively, you can download a [release][Releases]
 or clone the repository directly.
 
+[Bower]: http://bower.io/
+[npm]: https://www.npmjs.com/
+[Releases]: https://github.com/makenew/libsass-package/releases
+
 ## Development and Testing
 
 ### Source Code
 
-The [libsass-package source](https://github.com/makenew/libsass-package)
-is hosted on GitHub.
+The [makenew-libsass-package source] is hosted on GitHub.
 To clone the project run
 
 ```
 $ git clone https://github.com/makenew/libsass-package.git
 ```
 
+[makenew-libsass-package source]: https://github.com/makenew/libsass-package
+
 ### Requirements
 
-You will need [npm] with [Grunt] and [Bower].
+You will need [Node.js] with [npm].
 
 Install the development dependencies with
 
 ```
 $ npm install
-$ bower install
+```
+
+[Node.js]: https://nodejs.org/
+
+### Build
+
+Install any Bower dependencies and execute the default build task with
+
+```
+$ npm start
 ```
 
 ### Grunt
 
-Run `grunt --help` to see all Grunt tasks.
+Optionally, you may run additional development tasks with [Grunt].
+Install it with
 
 ```
-grunt sass   # Compile Sass to CSS
-grunt clean  # Remove build directory
-grunt watch  # Have Grunt watch for changes
+$ npm install --global grunt-cli
 ```
 
-[Bower]: http://bower.io/
+Run `$ grunt --help` to see all Grunt tasks.
+
+```
+clean   # Clean files and folders. *
+watch   # Run predefined tasks whenever watched files change.
+sass    # Compile Sass to CSS *
+default # Alias for "clean", "sass" tasks.
+```
+
 [Grunt]: http://gruntjs.com/
-[npm]: https://www.npmjs.com/
 
 ## Contributing
 
