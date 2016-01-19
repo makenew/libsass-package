@@ -1,21 +1,21 @@
-# Sass Package Skeleton
+# libSass Package Skeleton
 
 <!--
-[![Bower Version](https://img.shields.io/bower/v/sass-package.svg)](http://bower.io/search/?q=sass-package)
+[![Bower Version](https://img.shields.io/bower/v/libsass-package.svg)](http://bower.io/search/?q=libsass-package)
 -->
-[![MIT License](https://img.shields.io/github/license/makenew/sass-package.svg)](./LICENSE.txt)
-[![Dependency Status](https://img.shields.io/gemnasium/makenew/sass-package.svg)](https://gemnasium.com/makenew/sass-package)
-[![Build Status](https://img.shields.io/travis/makenew/sass-package/libsass.svg)](https://travis-ci.org/makenew/sass-package)
-
-Use this project freely as a base for your [Sass] packages.
+[![MIT License](https://img.shields.io/github/license/makenew/libsass-package.svg)](./LICENSE.txt)
+[![Dependency Status](https://img.shields.io/gemnasium/makenew/libsass-package.svg)](https://gemnasium.com/makenew/libsass-package)
+[![Build Status](https://img.shields.io/travis/makenew/libsass-package/libsass.svg)](https://travis-ci.org/makenew/libsass-package)
 
 ## Description
 
-This branch uses [LibSass].
-For [Ruby Sass][Sass] use the [master branch].
+Bootstrap a new [libSass] package in less than five minutes.
 
-[LibSass]: http://libsass.org/
-[master branch]: https://github.com/makenew/sass-package
+This skeleton uses [libSass].
+For [Ruby Sass][Sass], use [makenew/sass-package].
+
+[libSass]: http://libsass.org/
+[makenew/sass-package]: https://github.com/makenew/sass-package
 [Sass]: http://sass-lang.com/
 
 ### Features
@@ -58,7 +58,7 @@ demonstration purposes only and does not apply to this software.
    with your own using
 
    ```
-   $ git ls-files -z | xargs -0 sed -i 's/sass-package/your-package/g'
+   $ git ls-files -z | xargs -0 sed -i 's/libsass-package/your-package/g'
    $ git ls-files -z | xargs -0 sed -i 's/makenew/your_username/g'
    ```
 
@@ -66,7 +66,7 @@ Note that `CHANGELOG.md` is just a template for this skeleton.
 The actual changes for this project are documented in the commit history
 and summarized under [Releases].
 
-[Releases]: https://github.com/makenew/sass-package/releases
+[Releases]: https://github.com/makenew/libsass-package/releases
 [The Unlicense]: http://unlicense.org/UNLICENSE
 
 ### Updating
@@ -86,7 +86,7 @@ and then configure your `origin` branch as normal.
 Otherwise, add this as a new remote with
 
 ```
-$ git remote add upstream https://github.com/makenew/sass-package.git
+$ git remote add upstream https://github.com/makenew/libsass-package.git
 ```
 
 You can then fetch and merge changes with
@@ -102,7 +102,7 @@ The recommended method is to add this as a dependency
 to your project using [Bower] with
 
 ```
-$ bower install --save sass-package
+$ bower install --save libsass-package
 ```
 
 Alternatively, you can download a [release][Releases]
@@ -112,12 +112,12 @@ or clone the repository directly.
 
 ### Source Code
 
-The [sass-package source](https://github.com/makenew/sass-package)
+The [libsass-package source](https://github.com/makenew/libsass-package)
 is hosted on GitHub.
 To clone the project run
 
 ```
-$ git clone https://github.com/makenew/sass-package.git
+$ git clone https://github.com/makenew/libsass-package.git
 ```
 
 ### Requirements
@@ -151,7 +151,7 @@ Please submit and comment on bug reports and feature requests.
 
 To submit a patch:
 
-1. Fork it (https://github.com/makenew/sass-package/fork).
+1. Fork it (https://github.com/makenew/libsass-package/fork).
 2. Create your feature branch (`git checkout -b my-new-feature`).
 3. Make changes.
 4. Commit your changes (`git commit -am 'Add some feature'`).

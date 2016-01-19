@@ -1,5 +1,5 @@
 {
-  "name": "sass-package",
+  "name": "libsass-package",
   "version": "0.0.0",
   "authors": [
     "Your Name <you@example.com>"
@@ -11,7 +11,7 @@
     "css"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/makenew/sass-package",
+  "homepage": "https://github.com/makenew/libsass-package",
   "ignore": [
     "**/.*",
     "node_modules",
