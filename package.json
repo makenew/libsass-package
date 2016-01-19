@@ -1,7 +1,7 @@
 {
-  "name": "libsass-package",
-  "version": "0.0.0",
-  "description": "Package description.",
+  "name": "makenew-libsass-package",
+  "version": "2.0.0",
+  "description": "libSass package skeleton.",
   "main": "stylesheets/main.sass",
   "keywords": [
     "sass",
@@ -13,7 +13,7 @@
   "repository": "makenew/libsass-package",
   "license": "MIT",
   "authors": [
-    "Your Name <you@example.com>"
+    "Evan Sosenko <razorx@evansosenko.com>"
   ],
   "scripts": {
     "prestart": "bower install",

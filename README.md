@@ -1,11 +1,7 @@
 # libSass Package Skeleton
 
-<!--
 [![npm](https://img.shields.io/npm/v/makenew-libsass-package.svg)](https://www.npmjs.com/package/makenew-libsass-package)
--->
-<!--
 [![Bower](https://img.shields.io/bower/v/makenew-libsass-package.svg)](http://bower.io/search/?q=makenew-libsass-package)
--->
 [![GitHub license](https://img.shields.io/github/license/makenew/libsass-package.svg)](./LICENSE.txt)
 [![Dependency Status](https://img.shields.io/gemnasium/makenew/libsass-package.svg)](https://gemnasium.com/makenew/libsass-package)
 [![Build Status](https://img.shields.io/travis/makenew/libsass-package.svg)](https://travis-ci.org/makenew/libsass-package)
@@ -23,52 +19,36 @@ For [Ruby Sass][Sass], use [makenew/sass-package].
 
 ### Features
 
-* [Bower] package structure.
+* [Bower] and [npm] package structure.
 * [Grunt] tasks for development.
-* Node package management with [npm].
 * [Travis CI] ready.
 * [EditorConfig].
-* Badges from [Shields.io]!
+* Badges from [Shields.io].
 
-[Bundler]: http://bundler.io/
+[Bower]: http://bower.io/
 [EditorConfig]: http://editorconfig.org/
 [Grunt]: http://gruntjs.com/
 [npm]: https://www.npmjs.com/
 [Shields.io]: http://shields.io/
 [Travis CI]: https://travis-ci.org/
 
-### Usage
-
-This software can be used freely, see [The Unlicense].
-The MIT License text appearing in this software is for
-demonstration purposes only and does not apply to this software.
+### Bootstrapping a New Project
 
 1. Clone this repository or download a [release][Releases].
 
-2. Customize this README.
-   - Set the title and summary text.
-   - Replace the Description section.
-   - Update the Source section.
-   - Update the Contributing section.
-   - Remove or update the badges.
+2. Run `./makenew.sh` and follow the prompts.
+   This will replace the boilerplate, delete itself,
+   and stage changes for commit.
+   This script assumes the project repository will be hosted on GitHub.
+   For an alternative location, you must update the URLs manually.
 
-3. Set the copyright year and owner in `LICENSE.txt`.
+3. Fill in the README Description section.
 
-4. Customize `bower.json`.
+4. If [choosing a license][Choose a license] other than the one provided:
+   update `LICENSE.txt`, the README License section,
+   `package.json`, and `bower.json` with your chosen license.
 
-5. Replace any remaining instances of the placeholder package name.
-   You can replace the placeholder package name and GitHub username
-   with your own using
-
-   ```
-   $ git ls-files -z | xargs -0 sed -i 's/libsass-package/your-package/g'
-   $ git ls-files -z | xargs -0 sed -i 's/makenew/your_username/g'
-   ```
-
-Note that `CHANGELOG.md` is just a template for this skeleton.
-The actual changes for this project are documented in the commit history
-and summarized under [Releases].
-
+[Choose a license]: http://choosealicense.com/
 [Releases]: https://github.com/makenew/libsass-package/releases
 [The Unlicense]: http://unlicense.org/UNLICENSE
 
@@ -96,8 +76,14 @@ You can then fetch and merge changes with
 
 ```
 $ git fetch upstream
-$ git merge upstream/libsass
+$ git merge upstream/master
 ```
+
+#### Changelog
+
+Note that `CHANGELOG.md` is just a template for this skeleton.
+The actual changes for this project are documented in the commit history
+and summarized under [Releases].
 
 ## Installation
 
@@ -188,6 +174,10 @@ To submit a patch:
 6. Create a new Pull Request.
 
 ## License
+
+This software can be used freely, see [The Unlicense].
+The copyright text appearing below and elsewhere in this repository
+is for demonstration purposes only and does not apply to this software.
 
 This Sass package is licensed under the MIT license.
 
