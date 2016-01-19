@@ -24,6 +24,7 @@
     "test",
     "tests",
     "build",
+    "package.json",
     "Gruntfile.coffee"
   ]
 }
