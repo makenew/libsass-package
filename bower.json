@@ -1,11 +1,11 @@
 {
   "name": "libsass-package",
   "version": "0.0.0",
+  "description": "Package description.",
+  "main": "stylesheets/main.sass",
   "authors": [
     "Your Name <you@example.com>"
   ],
-  "description": "Package description.",
-  "main": "stylesheets/main.sass",
   "keywords": [
     "sass",
     "css"
