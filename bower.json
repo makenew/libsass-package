@@ -12,6 +12,10 @@
   ],
   "license": "MIT",
   "homepage": "https://github.com/makenew/libsass-package",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/makenew/libsass-package.git"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
