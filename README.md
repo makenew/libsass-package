@@ -3,8 +3,8 @@
 [![npm](https://img.shields.io/npm/v/makenew-libsass-package.svg)](https://www.npmjs.com/package/makenew-libsass-package)
 [![Bower](https://img.shields.io/bower/v/makenew-libsass-package.svg)](http://bower.io/search/?q=makenew-libsass-package)
 [![GitHub license](https://img.shields.io/github/license/makenew/libsass-package.svg)](./LICENSE.txt)
-[![Dependency Status](https://img.shields.io/gemnasium/makenew/libsass-package.svg)](https://gemnasium.com/makenew/libsass-package)
-[![Build Status](https://img.shields.io/travis/makenew/libsass-package.svg)](https://travis-ci.org/makenew/libsass-package)
+[![Gemnasium](https://img.shields.io/gemnasium/makenew/libsass-package.svg)](https://gemnasium.com/makenew/libsass-package)
+[![Travis](https://img.shields.io/travis/makenew/libsass-package.svg)](https://travis-ci.org/makenew/libsass-package)
 
 ## Description
 
