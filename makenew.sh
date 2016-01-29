@@ -45,7 +45,7 @@ makenew () {
   sed -i -e "11i ${mk_description}" README.md
   sed -i -e '27d' bower.json
 
-  find_replace "s/version\": \".*\"/version \": \"${mk_version}\"/g"
+  find_replace "s/version\": \".*\"/version\": \"${mk_version}\"/g"
   find_replace "s/0\.0\.0\.\.\./${mk_version}.../g"
   find_replace "s/libSass Package Skeleton/${mk_title}/g"
   find_replace "s/libSass package skeleton\./${mk_description}/g"
