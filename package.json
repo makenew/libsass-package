@@ -25,12 +25,12 @@
     "stylesheets"
   ],
   "devDependencies": {
-    "bower": "^1.7.2",
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-clean": "^0.7.0",
-    "grunt-contrib-watch": "^0.6.1",
+    "bower": "^1.7.9",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^1.1.0",
-    "load-grunt-tasks": "^3.4.0"
+    "load-grunt-tasks": "^3.5.0"
   }
 }
