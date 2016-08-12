@@ -66,6 +66,9 @@ makenew () {
   find_replace "s/makenew\/libsass-package/${mk_user}\/${mk_repo}/g"
   find_replace "s/makenew-libsass-package/${mk_slug}/g"
 
+  mk_attribution='> Built from [makenew/libsass-package](https://github.com/makenew/libsass-package).'
+  sed_insert README.md '9i' "${mk_attribution}\n"
+
   echo
   echo 'Replacing boilerplate.'
 }
